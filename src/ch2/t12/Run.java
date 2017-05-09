@@ -1,4 +1,4 @@
-package ch2.t10;
+package ch2.t12;
 
 public class Run {
 
@@ -12,7 +12,7 @@ public class Run {
 		thread2.start();
 
 		try {
-			Thread.sleep(8000);
+			Thread.sleep(5000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}

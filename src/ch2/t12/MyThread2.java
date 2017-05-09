@@ -1,4 +1,4 @@
-package ch2.t10;
+package ch2.t12;
 
 public class MyThread2 extends Thread {
 

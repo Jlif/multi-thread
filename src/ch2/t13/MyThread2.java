@@ -1,4 +1,4 @@
-package ch2.t10;
+package ch2.t13;
 
 public class MyThread2 extends Thread {
 
@@ -12,9 +12,7 @@ public class MyThread2 extends Thread {
 	@Override
 	public void run() {
 		super.run();
-		CommonUtils.beginTime2 = System.currentTimeMillis();
 		task.doLongTimeTask();
-		CommonUtils.endTime2 = System.currentTimeMillis();
 	}
 
 }
