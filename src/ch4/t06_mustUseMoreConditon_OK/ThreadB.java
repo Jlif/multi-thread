@@ -1,0 +1,16 @@
+package ch4.t06_mustUseMoreConditon_OK;
+
+public class ThreadB extends Thread {
+
+	private MyService service;
+
+	public ThreadB(MyService service) {
+		super();
+		this.service = service;
+	}
+
+	@Override
+	public void run() {
+		service.awaitB();
+	}
+}
